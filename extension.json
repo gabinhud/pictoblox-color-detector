@@ -1,0 +1,22 @@
+{
+  "id": "color-detector",
+  "name": "Color Detector",
+  "description": "Detect if red, green, or blue is visible in the camera.",
+  "blocks": [
+    {
+      "opcode": "isColorVisible",
+      "blockType": "Boolean",
+      "text": "detect if [COLOR] is visible",
+      "arguments": {
+        "COLOR": {
+          "type": "string",
+          "menu": "colors"
+        }
+      }
+    }
+  ],
+  "menus": {
+    "colors": ["red", "green", "blue"]
+  },
+  "javascriptURL": "https://gabinhud.github.io/pictoblox-color-detector/extension.js"
+}
